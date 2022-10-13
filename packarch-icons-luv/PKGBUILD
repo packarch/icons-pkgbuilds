@@ -1,0 +1,25 @@
+# Maintainer: Fabrice Corraire <antidote1911@gmail.com>
+
+pkgname=packarch-icons-luv
+pkgver=1.0
+pkgrel=2
+pkgdesc="Luv Icon theme for Packarch"
+url="https://github.com/packarch/packarch-icons"
+arch=('any')
+license=('GPL3')
+makedepends=()
+depends=()
+conflicts=()
+groups=(packarch-icons)
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+
+prepare() {
+	cp -af ../files/. ${srcdir}
+}
+
+package() {
+	local _iconsdir=${pkgdir}/usr/share/icons
+	mkdir -p "$_iconsdir"
+	cp -r ${srcdir}/* "$_iconsdir"
+}
