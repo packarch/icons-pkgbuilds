@@ -1,10 +1,10 @@
-# Maintainer: Fabrice Corraire <antidote1911@gmail.com>
+# Maintainer: Aditya Shakya <adi1090x@gmail.com>
 
 pkgname=packarch-icons-win11
 pkgver=1.0
-pkgrel=1
+pkgrel=4
 pkgdesc="Win11 Icon theme for Packarch"
-url="https://github.com/packarch/packarch-icons"
+url="https://github.com/packarch-os/packarch-icons"
 arch=('any')
 license=('GPL3')
 makedepends=()

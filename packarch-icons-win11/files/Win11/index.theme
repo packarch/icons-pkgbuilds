@@ -2,7 +2,7 @@
 Name=Win11
 Comment=MacOSX style icon theme for linux.
 
-Inherits=Papirus-Apps,Packarch,Papirus
+Inherits=Packarch
 Example=folder
 
 # KDE/Plasma Stuff
